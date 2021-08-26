@@ -1,0 +1,95 @@
+.mainInicio {
+    display: grid;
+
+    section {
+    display: grid; }
+}
+.carousel-inner {
+    height: 50vh;
+    overflow: hidden;
+}
+    .bienvenidos {
+        height: 20vh;
+        background: rgba(198, 236, 243, 0.2);
+        &__titulo {
+            font-family: 'WindSong';
+            text-align: center;
+            color: #c6ecf3;
+            margin: auto;
+            display: grid;
+            font-size: 3rem; 
+            justify-self: center;
+        }
+        &__mensaje {
+            font-family: 'WindSong';
+            text-align: center;
+            color: #c6ecf3;
+            margin: auto;
+            display: grid;
+            font-size: 1.5rem; 
+            justify-self: center;
+        }
+    }
+    .frase {
+        background: rgba(198, 236, 243, 0.2);
+        &__texto {
+            font-family: 'WindSong';
+            text-align: center;
+            color: #c6ecf3;
+            margin: auto;
+            display: grid;
+            font-size: 2rem;
+            justify-self: center; }
+          
+        &__autor {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            color: #c6ecf3;
+            margin: auto;
+            display: grid;
+            font-size: 1rem; 
+            justify-self: center; }
+          }
+         
+@media screen and (max-width: 768px) {
+    .carousel-inner {
+        height: 60vh;
+        size: cover;
+    }
+    .bienvenidos {
+        box-sizing: content-box;
+        &__titulo {
+            font-size: 2rem; 
+
+        }
+        &__mensaje {
+            justify-content: center;
+            margin: auto;
+            font-size: 1.1rem; }
+        }
+    .frase {
+        display: none;
+        &__texto {
+            display: none;
+            font-size: 1px;}
+        &__autor {
+            display: none;
+            font-size: 1rem;}                    
+                  }
+                }
+
+@media screen and (max-width: 360px) {
+    .bienvenidos {
+        height: 40vh;}
+        
+        &__titulo {
+            font-size: 1rem;
+        }
+        .carousel {
+            height: 50vh;
+            overflow: hidden;
+        }
+    .mainInicio {
+        height: auto;
+    }    
+                }

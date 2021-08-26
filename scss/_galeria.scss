@@ -1,0 +1,20 @@
+.mainGaleria {
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/12/succulent-04.jpg");
+    width: 100%;
+    background-size: cover;
+    height: auto;
+  
+    &__galeria {
+        .col-lg-4 {
+        padding: 25px;
+        margin: 0 !important; }
+  
+        &__imagen {
+        width: 100%;
+        height: 250px; }
+  
+        &__imagen:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);}
+}}
+  

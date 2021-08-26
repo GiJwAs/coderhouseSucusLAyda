@@ -1,0 +1,27 @@
+.main404 {
+    background: #efefeb;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    &__imagen{
+        display: grid;
+        align-items: center;
+        margin: auto;
+    }
+    &__texto{
+        display: grid;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        font-size: 200%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main404 {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-self: space-around; }
+        &__texto{
+            display: grid;
+            text-align: start;}
+    }

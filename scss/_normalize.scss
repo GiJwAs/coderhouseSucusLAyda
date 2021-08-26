@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none; }
+  
+  @font-face {
+    font-family: 'Encode Sans', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200&display=swap"); }
+  
+  @font-face {
+    font-family: 'WindSong', cursive;
+    src: url("https://fonts.googleapis.com/css2?family=WindSong&display=swap"); }
+  
+  @font-face {
+    font-family: felipa;
+    src: local("fonts/felipaRegular.ttf"); }
+  
+  
+  
+  main {
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/12/succulent-04.jpg");
+    height: 82vh;
+    width: 100%;
+    background-size: cover; }
+    @media screen and (max-width: 768px) {
+        main {
+          background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/12/succulent-04.jpg");
+          width: 100%;
+          background-size: cover; }
+        } 
+      
+      @media screen and (max-width: 360px) {
+        main {
+          background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/12/succulent-04.jpg");
+          width: 100%;
+          background-size: cover; }
+      }

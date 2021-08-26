@@ -1,0 +1,78 @@
+.mainContacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center; }
+  
+  .mainContacto div {
+    display: grid; }
+  
+  .formularioDeContacto {
+    color: #fdfdfd;
+    display: inline-block;
+    background-color: rgba(88, 21, 21, 0.534);
+    width: 23rem;
+    height: 18rem;
+    text-align: left;
+    padding: 1% 1%;
+    border: rebeccapurple;
+    border-style: double;
+    box-sizing: border-box;
+    align-items: center;
+    justify-self: center; }
+  
+  .formularioDeContacto {
+    list-style: none;
+    display: inline-block; }
+  
+  .formularioDeContacto br input {
+    display: inline; }
+  
+  textarea {
+    resize: none; }
+  
+  .redesSociales {
+    font-size: 1.5rem;
+    color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(88, 21, 21, 0.534);
+    width: 23rem;
+    height: 18rem;
+    padding: 1% 1%;
+    border: rebeccapurple;
+    border-style: double;
+    justify-self: center; }
+  
+  .redesSociales h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto; }
+  
+  .redesSociales nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  
+  .redesSociales nav li img:hover {
+    transition-duration: 4s;
+    height: 150%; }
+  
+  .checkBox {
+    display: inline-block; }
+  
+  .redesSociales {
+    color: #fdfdfd;
+    box-sizing: border-box; }
+  
+    @media screen and (max-width: 768px) {
+        #mainContacto {
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+            justify-self: space-around; }
+        }
